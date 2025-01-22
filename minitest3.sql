@@ -270,10 +270,6 @@ DROP PROCEDURE TongTienXuatCuaVatTu;
 call TongTienXuatCuaVatTu('vt005', @tongTienXuatVatTu);
 select @tongTienXuatVatTu;
 
-Được rồi, nếu bạn không muốn kiểm tra sự tồn tại của đơn hàng trong Stored Procedure TongSoLuongDatTheoDonHang nữa, bạn có thể bỏ qua câu lệnh IF và thực hiện truy vấn trực tiếp.
-
-Dưới đây là mã Stored Procedure sau khi đã bỏ kiểm tra tồn tại:
-
 SQL
 
 DELIMITER //
